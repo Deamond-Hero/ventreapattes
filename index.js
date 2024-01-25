@@ -1,3 +1,6 @@
+
+////Carrousel
+
 document.addEventListener("DOMContentLoaded", function() {
     const carousel = document.querySelector(".carousel");
     const slides = document.querySelectorAll(".slide");
@@ -20,3 +23,19 @@ document.addEventListener("DOMContentLoaded", function() {
   
     setInterval(nextSlide, 3000); // Cambiar de imagen cada 3 segundos (ajusta según sea necesario)
   });
+
+
+  ////// Comentarios / descripción
+
+
+  function showTab(tabId) {
+    // Oculta todas las pestañas
+    var tabs = document.querySelectorAll('.tab-content');
+    tabs.forEach(function(tab) {
+        tab.classList.remove('active');
+    });
+
+    // Muestra la pestaña seleccionada
+    var selectedTab = document.getElementById(tabId);
+    selectedTab.classList.add('active');
+}
