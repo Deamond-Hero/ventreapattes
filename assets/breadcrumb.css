@@ -1,0 +1,17 @@
+.breadcrumb{
+    list-style: none;
+   
+   }
+   
+   .breadcrumb li{
+       display: inline-block;
+       margin-right: 4px; 
+       
+   }
+   
+   .breadcrumb li a{
+       display: inline-block;
+       margin-right: 4px; 
+       text-decoration: none;
+   }
+   

@@ -1,0 +1,111 @@
+.desplegable span{
+    vertical-align:top;
+    
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    height: 100px;
+    vertical-align: middle;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0px 200px;
+}
+
+.logo{
+    margin-left: 32px;
+    height:70%;
+}
+
+nav .icons {
+    display: flex;
+    padding: 4px;
+    margin-left: 400px;
+    border-radius: 100%;
+    list-style: none;
+}
+nav .icons span {
+    border-radius:100px;
+
+}
+
+nav .icons li{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li a{
+    display: block;
+}
+
+.nav > li{
+    float: left ;
+}
+
+
+ul li {
+    list-style: none;
+
+}
+
+
+
+/*Menu desplegable*/
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo para la clase 'nav' */
+.nav > li {
+  display: inline-block;
+  position: relative;
+}
+
+/* Estilo para los enlaces dentro de la clase 'nav' */
+.nav > li > a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+
+}
+
+/* Estilo para las sublistas desplegables */
+.nav .sub-nav {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Mostrar la sublista al pasar el ratón sobre el elemento padre */
+.nav > li:hover > .sub-nav {
+  display: block;
+}
+
+/* Estilo para los elementos de la sublista */
+.sub-nav > li {
+  display: block;
+}
+
+/* Estilo para los enlaces dentro de la sublista */
+.sub-nav > li > a {
+  padding: 8px 15px;
+  color: #555;
+  text-decoration: none;
+  display: block;
+}
+
+/* Cambiar el color al pasar el ratón sobre los enlaces de la sublista */
+.sub-nav > li > a:hover {
+  background-color: #f0f0f0;
+}

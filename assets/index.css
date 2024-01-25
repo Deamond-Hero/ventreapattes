@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+li a{
+    color: black;
+    
+}
+
+header{
+    padding: 0px 200px;
+}
