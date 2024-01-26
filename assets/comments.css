@@ -1,27 +1,39 @@
+.material-icons {
+    position: relative;
+    bottom: 2px;
+}
+
+.comments {
+    margin: 1rem 0;
+}
+
 .tabs {
     display: flex;
-    justify-content:start;
+    justify-content: start;
     background-color: #f2f2f2;
     padding: 10px;
 }
 
 .tab {
+    display: flex;
     cursor: pointer;
     padding: 10px 20px;
     margin: 0 10px;
-
+    vertical-align: bottom;
     border-radius: 5px 5px 0 0;
-
 }
 
 .tab:hover {
     background-color: #ccc;
 }
 
+.tab.active {
+    background-color: #ccc;
+}
+
 .tab-content {
     display: none;
     padding: 20px;
-
     border-radius: 0 0 5px 5px;
     background-color: #fff;
 }
@@ -29,3 +41,54 @@
 .tab-content.active {
     display: block;
 }
+
+/* Comment box */
+
+.comment-box {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.comment-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.text {
+    
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Agrega estilos adicionales para los campos de entrada y etiquetas según sea necesario */
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+
+/* background-color: #0bbe38;
+color: #fafafa;
+border-color: #4caf50;
+border-width: 2px;
+border-radius: 5px;
+cursor: pointer;
+height: 32px; */

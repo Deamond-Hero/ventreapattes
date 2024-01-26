@@ -1,0 +1,38 @@
+
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    margin-top: 2%; /* Ajusta según sea necesario */
+}
+
+.counter-button {
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.counter-value {
+    font-size: 18px;
+    margin: 0 1em; /* Ajusta según sea necesario */
+}
+
+.added-to-cart-message {
+    margin-top: 3%; /* Ajusta según sea necesario */
+    color: #ecc100;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+#heartButton {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.impuestos{
+    margin-top: -20px;
+    font-size:medium;
+    font-weight: lighter;
+}

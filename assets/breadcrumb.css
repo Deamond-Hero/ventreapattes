@@ -15,3 +15,7 @@
        text-decoration: none;
    }
    
+   .breadcrumb {
+    margin-top: rem;
+    font-size: 0.9rem;
+   }

@@ -1,19 +1,82 @@
 .carousel-container {
   width: 100%;
   overflow: hidden;
+  justify-content: right;
+
+
+
+
+
 }
 
 .carousel {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  display: flex;
+  margin-left: 100px;
+
+
 }
 
 .slide {
   min-width: 100%;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
-.carousel-container img {
-  width: 100%;
+.carousel img {
+  width: 80%;
   height: auto;
+}
+
+.next img {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+  border-width: none;
+}
+
+.prev img {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+  border-width: none;
+}
+
+.next {
+  background-color: transparent;
+  border: none;
+}
+
+.prev {
+  background-color: transparent;
+  border: none;
+}
+
+.image-select2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100px;
+
+  z-index: 999;
+}
+
+
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+
+.zoom {
+  background-color: transparent;
+  border: none;
+
+  position:relative;
+  top: -200px;
+  left: 20%;
 }

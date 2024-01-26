@@ -17,3 +17,42 @@ header{
 p{
     font-size: 1rem;
 }
+
+.text{
+    font-size: 1rem;
+    width: 100%;
+}
+
+
+.custom-button1 {
+    padding: 0.5rem 0.5rem;
+    background-color: #ecc100;
+    color: #ffffff;
+    border-color: #fce300;
+    border-width: px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 2%; /* Ajusta según sea necesario */
+    font-weight: 700;
+
+}
+
+.custom-button2 {
+    min-width: 10rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #ffffff;
+    color: #c09e06;
+    border-color: #ecc100;
+    border-width: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 2%; /* Ajusta según sea necesario */
+    font-weight: 700;
+}
+
+#heart {
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

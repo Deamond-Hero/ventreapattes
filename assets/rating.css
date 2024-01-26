@@ -1,0 +1,21 @@
+
+.rating {
+    display: inline-block;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url('path-to-golden-star-icon.png'); /* Reemplaza con tu propia imagen de estrella dorada */
+    background-size: cover;
+  }
+  
+  .rating input:checked ~ label,
+  .rating input:checked ~ label ~ label {
+    background-image: url('path-to-golden-star-icon-filled.png'); /* Imagen de estrella dorada rellena para estrellas seleccionadas */
+  }
