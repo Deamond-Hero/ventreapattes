@@ -74,9 +74,8 @@
 
 .zoom {
   background-color: transparent;
-  border: none;
-
   position:relative;
-  top: -200px;
-  left: 20%;
+  border: none;
+  bottom: 15%; /* Puedes ajustar la posición superior según tus necesidades */
+  left: 70%;
 }
