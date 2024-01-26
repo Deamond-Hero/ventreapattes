@@ -26,3 +26,27 @@
     width: 50%;
     size-adjust: 0.5rem;
 }
+
+.first-block{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.smoothiedog{
+    height: 5rem;
+    display: flex;
+    margin-bottom: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    
+
+    
+}   
+
+.rating{
+    margin-top: 16px;
+    margin-bottom: -16px;
+  }
+
+  .ventas{
+    margin-bottom: -4px;
+  }
